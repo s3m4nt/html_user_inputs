@@ -1,47 +1,69 @@
-general_assembly_logo.png
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Assembly Account Creation</title>
+  </head>
+  <body>
+    <img src="general_assembly_logo.png" alt="general_assembly_logo.png" />
 
-General Assembly Account Creation
+    <h1>General Assembly Account Creation</h1>
+  </body>
+</html>
 
-Welcome to the General Assembly. General Assembly is a global
-institution training people all over the world in today's top
-technologies.
+<p>
+  General Assembly Account Creation Welcome to the General Assembly. General
+  Assembly is a global institution training people all over the world in today's
+  top technologies.
+</p>
+<p>
+  Please fill out the information below to create your General Assembly account.
+  Let us know what city you're in and what course you're taking. This list is
+  for all students. Please tell us what city you're in and whether you're taking
+  the Immersive User Experience Design (UXDI) course, the Immersive Software
+  Engineering course, or the Immersive Data Science course (DSI).</p>
+  
+  <form action="success.html">
+  <p>
+    <label for="city">City:</label>
 
-Please fill out the information below to create your General Assembly
-account. Let us know what city you're in and what course
-you're taking. This list is for all students. Please tell us what
-city you're in and whether you're taking the Immersive User Experience Design (UXDI)
-course, the Immersive Software Engineering course, or the Immersive Data Science course (DSI).
+    <select name="cities" id="cities">
+      <option value="austin">Austin</option>
+      <option value="boston">Boston</option>
+      <option value="chicago">Chicago</option>
+      <option value="dallas">Dallas</option>
+      <option value="denver">Denver</option>
+      <option value="hongkong">Hong Kong</option>
+      <option value="london">London</option>
+      <option value="losangeles">Los Angeles</option>
+      <option value="newyork">New York</option>
+      <option value="providence">Providence</option>
+      <option value="riyadh">Riyadh</option>
+      <option value="sanfrancisco">San Francisco</option>
+      <option value="seattle">Seattle</option>
+      <option value="singapore">Singapore</option>
+      <option value="stamford">Stamford</option>
+      <option value="sydney">Sydney</option>
+      <option value="toronto">Toronto</option>
+      <option value="dc">Washington DC</option>
+    </select>
+  </p>
 
-City:
-  Atlanta
-  Austin
-  Boston
-  Chicago
-  Dallas
-  Denver
-  Hong Kong
-  London
-  Los Angeles
-  Melbourne
-  New York
-  Providence
-  Riyadh
-  San Francisco
-  Seattle
-  Singapore
-  Stamford
-  Sydney
-  Toronto
-  Washington DC
 
-Course:
-  (0) UX
-  ( ) Web Dev
+  <p>
+  <label for="course">Course:</label>
+  <input type="radio" id="ux" name="course" value="male">
+  <label for="ux">UX</label>
+  <input type="radio" id="female" name="course" value="female">
+  <label for="female" value="checked">Web Dev</label>
 
-Name:     _________
-Email:    _________
-Password: *********
+  </p>
 
-[] Yes, subscribe me to the General Assembly student newsletter
 
-[Subscribe]
+</form>
+   Course: (0) UX ( ) Web Dev Name: _________ Email: _________
+  Password: ********* [] Yes, subscribe me to the General Assembly student
+  newsletter [Subscribe]
+</p>
